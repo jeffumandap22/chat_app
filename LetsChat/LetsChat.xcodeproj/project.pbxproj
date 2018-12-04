@@ -8,18 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		075C6E0D21B61EF90036DE22 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 075C6E0C21B61EF90036DE22 /* AppDelegate.swift */; };
-		075C6E0F21B61EF90036DE22 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 075C6E0E21B61EF90036DE22 /* ViewController.swift */; };
 		075C6E1221B61EF90036DE22 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 075C6E1021B61EF90036DE22 /* Main.storyboard */; };
 		075C6E1421B61EFA0036DE22 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 075C6E1321B61EFA0036DE22 /* Assets.xcassets */; };
 		075C6E1721B61EFA0036DE22 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 075C6E1521B61EFA0036DE22 /* LaunchScreen.storyboard */; };
 		075C6E2221B622F30036DE22 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 075C6E2021B622F30036DE22 /* SWRevealViewController.m */; };
+		075C6E2721B632D60036DE22 /* ChatVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 075C6E2621B632D60036DE22 /* ChatVC.swift */; };
+		075C6E2921B632EA0036DE22 /* ChannelVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 075C6E2821B632EA0036DE22 /* ChannelVC.swift */; };
 		6A51514EB0251BECF6B48853 /* Pods_LetsChat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C47C27311E32A61DD8CA6C2 /* Pods_LetsChat.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		075C6E0921B61EF90036DE22 /* LetsChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LetsChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		075C6E0C21B61EF90036DE22 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		075C6E0E21B61EF90036DE22 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		075C6E1121B61EF90036DE22 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		075C6E1321B61EFA0036DE22 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		075C6E1621B61EFA0036DE22 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -27,6 +27,8 @@
 		075C6E1F21B622F20036DE22 /* LetsChat-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LetsChat-Bridging-Header.h"; sourceTree = "<group>"; };
 		075C6E2021B622F30036DE22 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
 		075C6E2121B622F30036DE22 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		075C6E2621B632D60036DE22 /* ChatVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatVC.swift; sourceTree = "<group>"; };
+		075C6E2821B632EA0036DE22 /* ChannelVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelVC.swift; sourceTree = "<group>"; };
 		2DCE4ECDC6F82DC27CB735AB /* Pods-LetsChat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LetsChat.release.xcconfig"; path = "Pods/Target Support Files/Pods-LetsChat/Pods-LetsChat.release.xcconfig"; sourceTree = "<group>"; };
 		7C47C27311E32A61DD8CA6C2 /* Pods_LetsChat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LetsChat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9EC274B5B04C0132C97C551 /* Pods-LetsChat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LetsChat.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LetsChat/Pods-LetsChat.debug.xcconfig"; sourceTree = "<group>"; };
@@ -65,9 +67,11 @@
 		075C6E0B21B61EF90036DE22 /* LetsChat */ = {
 			isa = PBXGroup;
 			children = (
+				075C6E2421B6329F0036DE22 /* Model */,
+				075C6E2521B632A40036DE22 /* Vew */,
+				075C6E2321B6329A0036DE22 /* Controller */,
 				075C6E1E21B6228F0036DE22 /* Supporting Files */,
 				075C6E0C21B61EF90036DE22 /* AppDelegate.swift */,
-				075C6E0E21B61EF90036DE22 /* ViewController.swift */,
 				075C6E1021B61EF90036DE22 /* Main.storyboard */,
 				075C6E1321B61EFA0036DE22 /* Assets.xcassets */,
 				075C6E1521B61EFA0036DE22 /* LaunchScreen.storyboard */,
@@ -84,6 +88,29 @@
 				075C6E1F21B622F20036DE22 /* LetsChat-Bridging-Header.h */,
 			);
 			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		075C6E2321B6329A0036DE22 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				075C6E2621B632D60036DE22 /* ChatVC.swift */,
+				075C6E2821B632EA0036DE22 /* ChannelVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		075C6E2421B6329F0036DE22 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		075C6E2521B632A40036DE22 /* Vew */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Vew;
 			sourceTree = "<group>";
 		};
 		1C48408B91C3E4FB81ED6842 /* Frameworks */ = {
@@ -220,7 +247,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				075C6E0F21B61EF90036DE22 /* ViewController.swift in Sources */,
+				075C6E2921B632EA0036DE22 /* ChannelVC.swift in Sources */,
+				075C6E2721B632D60036DE22 /* ChatVC.swift in Sources */,
 				075C6E0D21B61EF90036DE22 /* AppDelegate.swift in Sources */,
 				075C6E2221B622F30036DE22 /* SWRevealViewController.m in Sources */,
 			);
