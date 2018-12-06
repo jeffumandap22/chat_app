@@ -323,7 +323,7 @@
                                     </view>
                                 </subviews>
                             </stackView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="profileDefault" translatesAutoresizingMaskIntoConstraints="NO" id="yf6-ov-6jm">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="profileDefault" translatesAutoresizingMaskIntoConstraints="NO" id="yf6-ov-6jm" customClass="CircleImage" customModule="LetsChat" customModuleProvider="target">
                                 <rect key="frame" x="137" y="328" width="100" height="100"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="100" id="CQY-Al-I4w"/>
@@ -346,6 +346,10 @@
                                     <action selector="pickBgColorPress:" destination="BRE-jS-sCl" eventType="touchUpInside" id="I4u-pp-Sf8"/>
                                 </connections>
                             </button>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="ujP-7M-mXN">
+                                <rect key="frame" x="169" y="215" width="37" height="37"/>
+                                <color key="color" red="0.35686274509999999" green="0.62352941179999999" blue="0.79607843140000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </activityIndicatorView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
@@ -358,18 +362,21 @@
                             <constraint firstItem="8kf-Hk-Wir" firstAttribute="centerX" secondItem="HoG-14-BrG" secondAttribute="centerX" id="MBZ-XB-0fw"/>
                             <constraint firstItem="yf6-ov-6jm" firstAttribute="centerX" secondItem="HoG-14-BrG" secondAttribute="centerX" id="R0u-dR-Zv2"/>
                             <constraint firstItem="pno-ol-UOE" firstAttribute="centerX" secondItem="HoG-14-BrG" secondAttribute="centerX" id="Tii-qh-L0e"/>
+                            <constraint firstItem="ujP-7M-mXN" firstAttribute="centerX" secondItem="HoG-14-BrG" secondAttribute="centerX" id="Vn8-L0-A5z"/>
                             <constraint firstItem="8kf-Hk-Wir" firstAttribute="top" secondItem="yf6-ov-6jm" secondAttribute="top" id="WGQ-dn-Udn"/>
                             <constraint firstItem="8kf-Hk-Wir" firstAttribute="width" secondItem="yf6-ov-6jm" secondAttribute="width" id="caO-dq-mre"/>
                             <constraint firstItem="iRs-5S-R96" firstAttribute="top" secondItem="8kf-Hk-Wir" secondAttribute="bottom" constant="5" id="fFF-bq-gte"/>
                             <constraint firstItem="Msu-fm-qcr" firstAttribute="top" secondItem="3rb-Z7-3lp" secondAttribute="bottom" constant="40" id="fST-Qs-1pi"/>
                             <constraint firstItem="yf6-ov-6jm" firstAttribute="top" secondItem="Msu-fm-qcr" secondAttribute="bottom" constant="40" id="ka8-rA-8xZ"/>
                             <constraint firstItem="1my-xL-rYA" firstAttribute="top" secondItem="ozn-z9-zR2" secondAttribute="top" constant="15" id="ts3-hC-lhM"/>
+                            <constraint firstItem="ujP-7M-mXN" firstAttribute="centerY" secondItem="HoG-14-BrG" secondAttribute="centerY" constant="-100" id="yH6-1d-lTV"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="ozn-z9-zR2"/>
                     </view>
                     <connections>
                         <outlet property="emailTxt" destination="yPm-0T-Gki" id="TdK-nr-6ZU"/>
                         <outlet property="passwordTxt" destination="fLX-fE-ift" id="8Dz-xm-vO4"/>
+                        <outlet property="spinner" destination="ujP-7M-mXN" id="gPF-T7-gbi"/>
                         <outlet property="userImg" destination="yf6-ov-6jm" id="6YH-9P-Vdt"/>
                         <outlet property="userNameTxt" destination="qkG-ud-Eqd" id="ROz-1C-VfE"/>
                         <segue destination="ZAh-Sa-hGc" kind="unwind" identifier="unwindToChannel" unwindAction="prepareForUnwindWithSegue:" id="8Uc-PA-pJd"/>
@@ -495,7 +502,7 @@
                                 <rect key="frame" x="278" y="90" width="22" height="22"/>
                                 <state key="normal" image="addChannelButton"/>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="menuProfileIcon" translatesAutoresizingMaskIntoConstraints="NO" id="NTS-Jb-3ta">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="menuProfileIcon" translatesAutoresizingMaskIntoConstraints="NO" id="NTS-Jb-3ta" customClass="CircleImage" customModule="LetsChat" customModuleProvider="target">
                                 <rect key="frame" x="16" y="579" width="75" height="68"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="75" id="Foi-wV-LoK"/>

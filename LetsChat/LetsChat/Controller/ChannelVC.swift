@@ -8,6 +8,7 @@
 
 import UIKit
 
+@IBDesignable
 class ChannelVC: UIViewController {
 
     @IBOutlet weak var loginButton: UIButton!
