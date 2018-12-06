@@ -25,10 +25,6 @@ class CreateAccountVC: UIViewController {
 
     }
     
-    @IBAction func closePress(_ sender: Any) {
-        performSegue(withIdentifier: UNWIND, sender: nil)
-    }
-    
     @IBAction func createAccountPress(_ sender: Any) {
         guard let email = emailTxt.text , emailTxt.text != "" else { return }
         guard let name = userNameTxt.text , userNameTxt.text != "" else { return }
@@ -52,13 +48,16 @@ class CreateAccountVC: UIViewController {
     }
     
     @IBAction func pickAvatarPress(_ sender: Any) {
-        
+        performSegue(withIdentifier: TO_AVATAR_PICKER, sender: nil)
     }
     
     @IBAction func pickBgColorPress(_ sender: Any) {
         
     }
     
+    @IBAction func closePress(_ sender: Any) {
+        performSegue(withIdentifier: UNWIND, sender: nil)
+    }
     
     
 }
