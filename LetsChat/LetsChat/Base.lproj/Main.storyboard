@@ -503,14 +503,14 @@
                                 <state key="normal" image="addChannelButton"/>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="menuProfileIcon" translatesAutoresizingMaskIntoConstraints="NO" id="NTS-Jb-3ta" customClass="CircleImage" customModule="LetsChat" customModuleProvider="target">
-                                <rect key="frame" x="16" y="579" width="75" height="68"/>
+                                <rect key="frame" x="16" y="572" width="75" height="75"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="75" id="Foi-wV-LoK"/>
-                                    <constraint firstAttribute="height" constant="68" id="H8a-bo-zNC"/>
+                                    <constraint firstAttribute="height" constant="75" id="H8a-bo-zNC"/>
                                 </constraints>
                             </imageView>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="WX5-nL-YUL">
-                                <rect key="frame" x="0.0" y="132" width="375" height="427"/>
+                                <rect key="frame" x="0.0" y="132" width="375" height="420"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="V3c-Ff-MGJ">
@@ -537,7 +537,7 @@
                                 </prototypes>
                             </tableView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mrG-LI-4I4">
-                                <rect key="frame" x="111" y="594" width="52" height="38"/>
+                                <rect key="frame" x="111" y="590" width="52" height="38"/>
                                 <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="19"/>
                                 <state key="normal" title="Login">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -568,6 +568,7 @@
                     </view>
                     <connections>
                         <outlet property="loginButton" destination="mrG-LI-4I4" id="kME-bn-w1y"/>
+                        <outlet property="userImg" destination="NTS-Jb-3ta" id="c3J-nx-0A1"/>
                         <segue destination="Kal-UZ-nT4" kind="show" identifier="toLogin" id="JFO-Jp-oE2"/>
                     </connections>
                 </viewController>
