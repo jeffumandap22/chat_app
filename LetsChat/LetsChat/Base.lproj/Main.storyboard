@@ -169,7 +169,7 @@
                                     </label>
                                 </subviews>
                             </stackView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vim-uo-6XH">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vim-uo-6XH" customClass="RoundedButton" customModule="LetsChat" customModuleProvider="target">
                                 <rect key="frame" x="62" y="284" width="250" height="50"/>
                                 <color key="backgroundColor" red="0.35686274509999999" green="0.62352941179999999" blue="0.79607843140000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
@@ -180,6 +180,11 @@
                                 <state key="normal" title="Login">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -233,9 +238,10 @@
                                 </state>
                                 <connections>
                                     <action selector="createAccountButtonPress:" destination="Kal-UZ-nT4" eventType="touchUpInside" id="JIS-6m-sjp"/>
+                                    <action selector="pickAvatarPress:" destination="BRE-jS-sCl" eventType="touchUpInside" id="iUW-4l-Gpd"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pno-ol-UOE">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pno-ol-UOE" customClass="RoundedButton" customModule="LetsChat" customModuleProvider="target">
                                 <rect key="frame" x="62" y="597" width="250" height="50"/>
                                 <color key="backgroundColor" red="0.35686274509999999" green="0.62352941179999999" blue="0.79607843140000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
@@ -246,6 +252,14 @@
                                 <state key="normal" title="Create Account">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="createAccountPress:" destination="BRE-jS-sCl" eventType="touchUpInside" id="4XE-lJ-hTx"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Create an account" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3rb-Z7-3lp">
                                 <rect key="frame" x="92" y="70" width="191" height="30.5"/>
@@ -329,6 +343,7 @@
                                 </state>
                                 <connections>
                                     <action selector="createAccountButtonPress:" destination="Kal-UZ-nT4" eventType="touchUpInside" id="Q1E-PP-2Jp"/>
+                                    <action selector="pickBgColorPress:" destination="BRE-jS-sCl" eventType="touchUpInside" id="I4u-pp-Sf8"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -353,6 +368,10 @@
                         <viewLayoutGuide key="safeArea" id="ozn-z9-zR2"/>
                     </view>
                     <connections>
+                        <outlet property="emailTxt" destination="yPm-0T-Gki" id="TdK-nr-6ZU"/>
+                        <outlet property="passwordTxt" destination="fLX-fE-ift" id="8Dz-xm-vO4"/>
+                        <outlet property="userImg" destination="yf6-ov-6jm" id="6YH-9P-Vdt"/>
+                        <outlet property="userNameTxt" destination="qkG-ud-Eqd" id="ROz-1C-VfE"/>
                         <segue destination="ZAh-Sa-hGc" kind="unwind" identifier="unwindToChannel" unwindAction="prepareForUnwindWithSegue:" id="8Uc-PA-pJd"/>
                     </connections>
                 </viewController>

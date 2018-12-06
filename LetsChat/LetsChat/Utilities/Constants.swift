@@ -11,7 +11,7 @@ import Foundation
 typealias CompletionHandler = (_ Success: Bool) ->()
 
 // url
-let BASE_URL = "https://letsgochat.herokuapp.com/v1/"
+let BASE_URL = "https://letschattt.herokuapp.com/v1/"
 let URL_REGISTER = "\(BASE_URL)account/register"
 
 //segue
