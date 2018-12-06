@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0710211E21B8D87800024293 /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0710211D21B8D87800024293 /* RoundedButton.swift */; };
+		0710212021B8FAB200024293 /* UserDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0710211F21B8FAB200024293 /* UserDataService.swift */; };
 		071E8B7421B6499200A65FFD /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 071E8B7321B6499200A65FFD /* GradientView.swift */; };
 		071E8B7721B6610100A65FFD /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 071E8B7621B6610100A65FFD /* Constants.swift */; };
 		071E8B7921B667C000A65FFD /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 071E8B7821B667C000A65FFD /* LoginVC.swift */; };
@@ -25,6 +26,7 @@
 
 /* Begin PBXFileReference section */
 		0710211D21B8D87800024293 /* RoundedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
+		0710211F21B8FAB200024293 /* UserDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDataService.swift; sourceTree = "<group>"; };
 		071E8B7321B6499200A65FFD /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
 		071E8B7621B6610100A65FFD /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		071E8B7821B667C000A65FFD /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
@@ -143,6 +145,7 @@
 			isa = PBXGroup;
 			children = (
 				07699EB221B7D01F00D18F3A /* AuthService.swift */,
+				0710211F21B8FAB200024293 /* UserDataService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -284,6 +287,7 @@
 				075C6E2921B632EA0036DE22 /* ChannelVC.swift in Sources */,
 				0710211E21B8D87800024293 /* RoundedButton.swift in Sources */,
 				075C6E2721B632D60036DE22 /* ChatVC.swift in Sources */,
+				0710212021B8FAB200024293 /* UserDataService.swift in Sources */,
 				071E8B7B21B66ACD00A65FFD /* CreateAccountVC.swift in Sources */,
 				07699EB321B7D01F00D18F3A /* AuthService.swift in Sources */,
 				071E8B7921B667C000A65FFD /* LoginVC.swift in Sources */,
