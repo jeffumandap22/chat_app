@@ -185,15 +185,24 @@
                                         <real key="value" value="5"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="loginPress:" destination="Kal-UZ-nT4" eventType="touchUpInside" id="cwM-cC-0fW"/>
+                                </connections>
                             </button>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="6sq-XT-IbK">
+                                <rect key="frame" x="169" y="215" width="37" height="37"/>
+                                <color key="color" red="0.35686274509999999" green="0.62352941179999999" blue="0.79607843140000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </activityIndicatorView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="Axs-ql-2hw" firstAttribute="centerX" secondItem="WQt-u6-hZF" secondAttribute="centerX" id="63t-bZ-vXd"/>
+                            <constraint firstItem="6sq-XT-IbK" firstAttribute="centerY" secondItem="WQt-u6-hZF" secondAttribute="centerY" constant="-100" id="NlZ-A8-ZUc"/>
                             <constraint firstItem="S2p-lB-c1Z" firstAttribute="centerX" secondItem="WQt-u6-hZF" secondAttribute="centerX" id="OsX-Xs-TYv"/>
                             <constraint firstItem="S2p-lB-c1Z" firstAttribute="top" secondItem="vim-uo-6XH" secondAttribute="bottom" id="QP9-sZ-UzK"/>
                             <constraint firstItem="0MN-d1-q2C" firstAttribute="top" secondItem="neX-gd-K0c" secondAttribute="top" constant="50" id="RkS-3W-HiH"/>
                             <constraint firstItem="Axs-ql-2hw" firstAttribute="top" secondItem="0MN-d1-q2C" secondAttribute="bottom" constant="40" id="bfb-io-Cgd"/>
+                            <constraint firstItem="6sq-XT-IbK" firstAttribute="centerX" secondItem="WQt-u6-hZF" secondAttribute="centerX" id="m4K-Zh-hpa"/>
                             <constraint firstItem="vim-uo-6XH" firstAttribute="centerX" secondItem="WQt-u6-hZF" secondAttribute="centerX" id="pr8-FP-xNW"/>
                             <constraint firstItem="neX-gd-K0c" firstAttribute="trailing" secondItem="7JM-we-Uue" secondAttribute="trailing" constant="16" id="s7u-5a-n7Z"/>
                             <constraint firstItem="0MN-d1-q2C" firstAttribute="centerX" secondItem="WQt-u6-hZF" secondAttribute="centerX" id="tc7-vj-Awb"/>
@@ -203,6 +212,9 @@
                         <viewLayoutGuide key="safeArea" id="neX-gd-K0c"/>
                     </view>
                     <connections>
+                        <outlet property="spinner" destination="6sq-XT-IbK" id="2of-rw-YDo"/>
+                        <outlet property="userNameText" destination="VnO-h1-wRT" id="C1L-Ak-Ak3"/>
+                        <outlet property="userPasswordText" destination="HdO-EF-NRd" id="8ed-sH-P4P"/>
                         <segue destination="BRE-jS-sCl" kind="show" identifier="toCreateAccount" id="ebq-ln-AAM"/>
                     </connections>
                 </viewController>
