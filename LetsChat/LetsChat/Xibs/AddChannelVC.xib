@@ -97,8 +97,7 @@
                                 </userDefinedRuntimeAttribute>
                             </userDefinedRuntimeAttributes>
                             <connections>
-                                <action selector="createChannel:" destination="-1" eventType="touchUpInside" id="IYi-QZ-NuO"/>
-                                <action selector="createChannelPress:" destination="-1" eventType="touchUpInside" id="NWf-pU-1qa"/>
+                                <action selector="createChannelPress:" destination="-1" eventType="touchUpInside" id="6zA-39-n8g"/>
                             </connections>
                         </button>
                     </subviews>

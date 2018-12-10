@@ -549,6 +549,7 @@
                                             <constraints>
                                                 <constraint firstItem="FxN-Gq-Kqn" firstAttribute="centerY" secondItem="St1-PQ-1PO" secondAttribute="centerY" id="6iH-8a-5o9"/>
                                                 <constraint firstItem="FxN-Gq-Kqn" firstAttribute="leading" secondItem="St1-PQ-1PO" secondAttribute="leadingMargin" constant="20" id="B3w-eL-Lyu"/>
+                                                <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="FxN-Gq-Kqn" secondAttribute="trailingMargin" id="TeY-NS-UV5"/>
                                             </constraints>
                                         </tableViewCellContentView>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -576,11 +577,14 @@
                             <constraint firstItem="WX5-nL-YUL" firstAttribute="leading" secondItem="8kj-mx-DdF" secondAttribute="leading" id="GwG-eq-9Ms"/>
                             <constraint firstItem="mrG-LI-4I4" firstAttribute="leading" secondItem="NTS-Jb-3ta" secondAttribute="trailing" constant="20" id="Mfo-VF-wmh"/>
                             <constraint firstItem="ecn-Lo-trJ" firstAttribute="leading" secondItem="8kj-mx-DdF" secondAttribute="leading" constant="16" id="Of3-Yw-now"/>
+                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="kSo-Uc-Zuh" secondAttribute="trailing" constant="20" symbolic="YES" id="VNG-an-6lO"/>
                             <constraint firstItem="nhE-eb-8sI" firstAttribute="centerY" secondItem="ecn-Lo-trJ" secondAttribute="centerY" id="VSl-MM-Baj"/>
                             <constraint firstItem="NTS-Jb-3ta" firstAttribute="top" secondItem="WX5-nL-YUL" secondAttribute="bottom" constant="20" id="WeQ-LT-FRl"/>
                             <constraint firstItem="WX5-nL-YUL" firstAttribute="top" secondItem="nhE-eb-8sI" secondAttribute="bottom" constant="20" id="b2t-v3-INd"/>
+                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="mrG-LI-4I4" secondAttribute="trailing" constant="20" symbolic="YES" id="bHQ-3i-Y94"/>
                             <constraint firstItem="kSo-Uc-Zuh" firstAttribute="leading" secondItem="8kj-mx-DdF" secondAttribute="leading" constant="16" id="bv6-4l-YEC"/>
                             <constraint firstItem="8kj-mx-DdF" firstAttribute="bottom" secondItem="NTS-Jb-3ta" secondAttribute="bottom" constant="20" id="fLo-Mn-P3x"/>
+                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="ecn-Lo-trJ" secondAttribute="trailing" constant="20" symbolic="YES" id="g59-aU-QVE"/>
                             <constraint firstItem="ecn-Lo-trJ" firstAttribute="top" secondItem="kSo-Uc-Zuh" secondAttribute="bottom" constant="20" id="hLh-uM-4Mg"/>
                             <constraint firstItem="8kj-mx-DdF" firstAttribute="trailing" secondItem="nhE-eb-8sI" secondAttribute="trailing" constant="75" id="kjJ-br-WST"/>
                             <constraint firstItem="kSo-Uc-Zuh" firstAttribute="top" secondItem="8kj-mx-DdF" secondAttribute="top" constant="20" id="oJF-m4-tQE"/>
