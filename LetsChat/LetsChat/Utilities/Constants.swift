@@ -23,6 +23,8 @@ let textFieldPlaceHolder = #colorLiteral(red: 0.3254901961, green: 0.4196078431,
 
 //notification
 let NOTIF_USER_DATA_DID_CHANGE = Notification.Name("notifUserDataChange")
+let NOTIF_CHANNELS_LOADED = Notification.Name("channelsLoaded")
+let NOTIF_CHANNEL_SELECTED = Notification.Name("channelSelected")
 
 //segue
 let TO_LOGIN = "toLogin"
