@@ -517,6 +517,9 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nhE-eb-8sI">
                                 <rect key="frame" x="278" y="90" width="22" height="22"/>
                                 <state key="normal" image="addChannelButton"/>
+                                <connections>
+                                    <action selector="addChannelPress:" destination="23N-Ok-6ex" eventType="touchUpInside" id="wud-Fh-onv"/>
+                                </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="menuProfileIcon" translatesAutoresizingMaskIntoConstraints="NO" id="NTS-Jb-3ta" customClass="CircleImage" customModule="LetsChat" customModuleProvider="target">
                                 <rect key="frame" x="16" y="572" width="75" height="75"/>

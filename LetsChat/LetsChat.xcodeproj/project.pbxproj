@@ -29,6 +29,8 @@
 		078C65E821BE254000337ADC /* MessageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078C65E721BE254000337ADC /* MessageService.swift */; };
 		078C65EA21BE258A00337ADC /* Channel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078C65E921BE258A00337ADC /* Channel.swift */; };
 		078C65EC21BE4A7700337ADC /* ChannelCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078C65EB21BE4A7700337ADC /* ChannelCell.swift */; };
+		078C65EF21BE4FFE00337ADC /* AddChannelVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078C65ED21BE4FFE00337ADC /* AddChannelVC.swift */; };
+		078C65F021BE4FFE00337ADC /* AddChannelVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 078C65EE21BE4FFE00337ADC /* AddChannelVC.xib */; };
 		6A51514EB0251BECF6B48853 /* Pods_LetsChat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C47C27311E32A61DD8CA6C2 /* Pods_LetsChat.framework */; };
 /* End PBXBuildFile section */
 
@@ -59,6 +61,8 @@
 		078C65E721BE254000337ADC /* MessageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageService.swift; sourceTree = "<group>"; };
 		078C65E921BE258A00337ADC /* Channel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Channel.swift; sourceTree = "<group>"; };
 		078C65EB21BE4A7700337ADC /* ChannelCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelCell.swift; sourceTree = "<group>"; };
+		078C65ED21BE4FFE00337ADC /* AddChannelVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddChannelVC.swift; sourceTree = "<group>"; };
+		078C65EE21BE4FFE00337ADC /* AddChannelVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AddChannelVC.xib; sourceTree = "<group>"; };
 		2DCE4ECDC6F82DC27CB735AB /* Pods-LetsChat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LetsChat.release.xcconfig"; path = "Pods/Target Support Files/Pods-LetsChat/Pods-LetsChat.release.xcconfig"; sourceTree = "<group>"; };
 		7C47C27311E32A61DD8CA6C2 /* Pods_LetsChat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LetsChat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9EC274B5B04C0132C97C551 /* Pods-LetsChat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LetsChat.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LetsChat/Pods-LetsChat.debug.xcconfig"; sourceTree = "<group>"; };
@@ -79,6 +83,7 @@
 		0710212B21B9330500024293 /* Xibs */ = {
 			isa = PBXGroup;
 			children = (
+				078C65EE21BE4FFE00337ADC /* AddChannelVC.xib */,
 				0710212821B932CB00024293 /* ProfileVC.xib */,
 			);
 			path = Xibs;
@@ -147,6 +152,7 @@
 				071E8B7821B667C000A65FFD /* LoginVC.swift */,
 				071E8B7A21B66ACD00A65FFD /* CreateAccountVC.swift */,
 				0710212721B932CB00024293 /* ProfileVC.swift */,
+				078C65ED21BE4FFE00337ADC /* AddChannelVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -260,6 +266,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				078C65F021BE4FFE00337ADC /* AddChannelVC.xib in Resources */,
 				0710212A21B932CB00024293 /* ProfileVC.xib in Resources */,
 				075C6E1721B61EFA0036DE22 /* LaunchScreen.storyboard in Resources */,
 				075C6E1421B61EFA0036DE22 /* Assets.xcassets in Resources */,
@@ -330,6 +337,7 @@
 				071E8B7B21B66ACD00A65FFD /* CreateAccountVC.swift in Sources */,
 				07699EB321B7D01F00D18F3A /* AuthService.swift in Sources */,
 				071E8B7921B667C000A65FFD /* LoginVC.swift in Sources */,
+				078C65EF21BE4FFE00337ADC /* AddChannelVC.swift in Sources */,
 				071E8B7421B6499200A65FFD /* GradientView.swift in Sources */,
 				0710212421B90C5C00024293 /* AvatarCell.swift in Sources */,
 				075C6E0D21B61EF90036DE22 /* AppDelegate.swift in Sources */,
