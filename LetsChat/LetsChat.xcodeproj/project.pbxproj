@@ -28,6 +28,7 @@
 		07699EB321B7D01F00D18F3A /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07699EB221B7D01F00D18F3A /* AuthService.swift */; };
 		078C65E821BE254000337ADC /* MessageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078C65E721BE254000337ADC /* MessageService.swift */; };
 		078C65EA21BE258A00337ADC /* Channel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078C65E921BE258A00337ADC /* Channel.swift */; };
+		078C65EC21BE4A7700337ADC /* ChannelCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078C65EB21BE4A7700337ADC /* ChannelCell.swift */; };
 		6A51514EB0251BECF6B48853 /* Pods_LetsChat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C47C27311E32A61DD8CA6C2 /* Pods_LetsChat.framework */; };
 /* End PBXBuildFile section */
 
@@ -57,6 +58,7 @@
 		07699EB221B7D01F00D18F3A /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
 		078C65E721BE254000337ADC /* MessageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageService.swift; sourceTree = "<group>"; };
 		078C65E921BE258A00337ADC /* Channel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Channel.swift; sourceTree = "<group>"; };
+		078C65EB21BE4A7700337ADC /* ChannelCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelCell.swift; sourceTree = "<group>"; };
 		2DCE4ECDC6F82DC27CB735AB /* Pods-LetsChat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LetsChat.release.xcconfig"; path = "Pods/Target Support Files/Pods-LetsChat/Pods-LetsChat.release.xcconfig"; sourceTree = "<group>"; };
 		7C47C27311E32A61DD8CA6C2 /* Pods_LetsChat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LetsChat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9EC274B5B04C0132C97C551 /* Pods-LetsChat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LetsChat.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LetsChat/Pods-LetsChat.debug.xcconfig"; sourceTree = "<group>"; };
@@ -165,6 +167,7 @@
 				0710212121B9068300024293 /* AvatarPickerVC.swift */,
 				0710212321B90C5C00024293 /* AvatarCell.swift */,
 				0710212521B91ABB00024293 /* CircleImage.swift */,
+				078C65EB21BE4A7700337ADC /* ChannelCell.swift */,
 			);
 			path = Vew;
 			sourceTree = "<group>";
@@ -315,6 +318,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0710212921B932CB00024293 /* ProfileVC.swift in Sources */,
+				078C65EC21BE4A7700337ADC /* ChannelCell.swift in Sources */,
 				075C6E2921B632EA0036DE22 /* ChannelVC.swift in Sources */,
 				0710212221B9068300024293 /* AvatarPickerVC.swift in Sources */,
 				0710211E21B8D87800024293 /* RoundedButton.swift in Sources */,
