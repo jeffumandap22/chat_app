@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LetsChat/Controller/ChatVC.swift"
+            timestampString = "566137227.8905849"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "67"
+            endingLineNumber = "67"
+            landmarkName = "sendMessagePress(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LetsChat.ChatVC.sendMessagePress(Any) -&gt; ()"
+                  moduleName = "LetsChat"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jeffreyumandap/Desktop/UDEMY_Projects/chat_app/LetsChat/LetsChat/Controller/ChatVC.swift"
+                  timestampString = "566137210.855033"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "67"
+                  endingLineNumber = "67"
+                  offsetFromSymbolStart = "1535">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Bool) -&gt; () in LetsChat.ChatVC.sendMessagePress(Any) -&gt; ()"
+                  moduleName = "LetsChat"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jeffreyumandap/Desktop/UDEMY_Projects/chat_app/LetsChat/LetsChat/Controller/ChatVC.swift"
+                  timestampString = "566137210.8607039"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "68"
+                  endingLineNumber = "68"
+                  offsetFromSymbolStart = "29">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
