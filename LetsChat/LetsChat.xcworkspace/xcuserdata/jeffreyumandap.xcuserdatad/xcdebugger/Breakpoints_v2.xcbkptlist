@@ -10,11 +10,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "LetsChat/Controller/ChatVC.swift"
-            timestampString = "566142878.7747591"
+            timestampString = "566294821.567552"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "102"
-            endingLineNumber = "102"
+            startingLineNumber = "135"
+            endingLineNumber = "135"
             landmarkName = "sendMessagePress(_:)"
             landmarkType = "7">
             <Locations>

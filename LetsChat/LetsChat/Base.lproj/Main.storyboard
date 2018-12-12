@@ -143,6 +143,12 @@
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dzS-Dj-PZA">
+                                <rect key="frame" x="8" y="601.5" width="359" height="19.5"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="14"/>
+                                <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
@@ -156,9 +162,12 @@
                             <constraint firstItem="0N3-Jg-B2v" firstAttribute="top" secondItem="BaY-FE-cWS" secondAttribute="bottom" id="imZ-ZF-E02"/>
                             <constraint firstItem="BaY-FE-cWS" firstAttribute="trailing" secondItem="bi4-LK-L1k" secondAttribute="trailing" id="lM2-MV-7L7"/>
                             <constraint firstItem="bi4-LK-L1k" firstAttribute="trailing" secondItem="CaK-AZ-nxx" secondAttribute="trailing" id="mAh-cq-jF8"/>
+                            <constraint firstItem="bi4-LK-L1k" firstAttribute="trailing" secondItem="dzS-Dj-PZA" secondAttribute="trailing" constant="8" id="oLg-b2-oHe"/>
+                            <constraint firstItem="CaK-AZ-nxx" firstAttribute="top" secondItem="dzS-Dj-PZA" secondAttribute="bottom" constant="6" id="ooC-Ng-I4d"/>
                             <constraint firstItem="BaY-FE-cWS" firstAttribute="top" secondItem="Jjl-Gs-r90" secondAttribute="top" id="qUp-Qx-U2j"/>
                             <constraint firstItem="BaY-FE-cWS" firstAttribute="leading" secondItem="bi4-LK-L1k" secondAttribute="leading" id="sOy-KP-Nfs"/>
                             <constraint firstItem="bi4-LK-L1k" firstAttribute="trailing" secondItem="diJ-I4-8Nh" secondAttribute="trailing" constant="8" id="spQ-kG-1oH"/>
+                            <constraint firstItem="dzS-Dj-PZA" firstAttribute="leading" secondItem="bi4-LK-L1k" secondAttribute="leading" constant="8" id="uF2-Aj-qmD"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="bi4-LK-L1k"/>
                     </view>
@@ -168,6 +177,7 @@
                         <outlet property="messageTextBox" destination="CaK-AZ-nxx" id="XLr-6d-wtS"/>
                         <outlet property="sendButton" destination="diJ-I4-8Nh" id="D5J-9u-0XO"/>
                         <outlet property="tableView" destination="0N3-Jg-B2v" id="xws-kX-edZ"/>
+                        <outlet property="typingUsersLabel" destination="dzS-Dj-PZA" id="K6s-LA-Il4"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Vb6-J8-bAo" userLabel="First Responder" sceneMemberID="firstResponder"/>
